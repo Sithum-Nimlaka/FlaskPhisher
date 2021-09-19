@@ -23,6 +23,8 @@ FlaskPhisher is a tool to generate phishing pages that target social media websi
 <img src="https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskPhisher-windows.jpg"/>
 <p align="center">Kali Linux 2021.3<p>
 <img src="https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskPhisher-kali-linux.jpg"/>
+<p align="center">CentOS 8<p>
+<img src="https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskPhisher-centos8.jpg"/>
   
 ## PREREQUISITES
 
@@ -47,8 +49,8 @@ FlaskPhisher is a tool to generate phishing pages that target social media websi
   - `git clone https://github.com/Sithum-Nimlaka/FlaskPhisher.git`<br>
   - `chmod 777 FlaskPhisher`<br>
   - `cd FlaskPhisher`<br>
-  - `pip3 install -r requirements.txt`<br>
-  - `python3 FlaskPhisher.py`<br>
+  - `sudo pip3 install -r requirements.txt`<br>
+  - `sudo python3 FlaskPhisher.py`<br>
 
 ### RedHat Based Distros
   - `sudo yum install git`<br>
@@ -57,11 +59,16 @@ FlaskPhisher is a tool to generate phishing pages that target social media websi
   - `git clone https://github.com/Sithum-Nimlaka/FlaskPhisher.git`<br>
   - `chmod 777 FlaskPhisher`<br>
   - `cd FlaskPhisher`<br>
-  - `pip3 install -r requirements.txt`<br>
-  - `python3 FlaskPhisher.py`<br>
+  - `sudo pip3 install -r requirements.txt`<br>
+  - `sudo python3 FlaskPhisher.py`<br>
 
 # Features
 ### Save Data into Database.
 - Flask Phisher is automatically saving phished credentials to the SQLite database.
 - To access saved data,<br>
 run `python3 savedCredentials.py`
+  
+# Discussion & Latest Updates
+- For latest updates, and discuss about bugs join our telegram channel and group via the following links.
+- <p>Channel: <a href="https://t.me/FlaskPhisherOfficial">https://t.me/FlaskPhisherOfficial</a></p>
+- <p>Group: <a href="https://t.me/joinchat/eIyBjRvY8qVkMTc9">https://t.me/joinchat/eIyBjRvY8qVkMTc9</a></p>
