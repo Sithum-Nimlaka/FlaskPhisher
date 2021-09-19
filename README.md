@@ -21,6 +21,8 @@ The use of the FlaskPhisher & its phishing pages is COMPLETE RESPONSIBILITY of t
 ### SCREENSHOTS (Tested Platforms)
 <p align="center">Windows 10<p>
 <img src="https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskPhisher-windows.jpg"/>
+<p align="center">Kali Linux 2021.3<p>
+<img src="https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskPhisher-kali-linux.jpg"/>
   
 ### PREREQUISITES
 
