@@ -36,16 +36,16 @@ The use of the FlaskPhisher & its phishing pages is COMPLETE RESPONSIBILITY of t
   - Download & Install python3
   - Download repository
   - Extract it<br>
-  `cd FlaskPhisher-Main`<br>
-  `pip install -r .\requirements.txt`<br>
-  `python FlaskPhisher.py`<br>
+  - `cd FlaskPhisher-Main`<br>
+  - `pip install -r .\requirements.txt`<br>
+  - `python FlaskPhisher.py`<br>
 ### Debian Based Distros
-  `sudo apt install git`<br>
-  `sudo apt-get -y install python3-pip`<br>
-  `git clone https://github.com/Sithum-Nimlaka/FlaskPhisher.git`<br>
-  `chmod 777 FlaskPhisher`<br>
-  `cd FlaskPhisher`<br>
-  `pip3 install -r requirements.txt`<br>
-  `python3 FlaskPhisher.py`<br>
+  - `sudo apt install git`<br>
+  - `sudo apt-get -y install python3-pip`<br>
+  -  `git clone https://github.com/Sithum-Nimlaka/FlaskPhisher.git`<br>
+  - `chmod 777 FlaskPhisher`<br>
+  - `cd FlaskPhisher`<br>
+  - `pip3 install -r requirements.txt`<br>
+  - `python3 FlaskPhisher.py`<br>
 
 ### RedHat Based Distros
