@@ -41,11 +41,20 @@ The use of the FlaskPhisher & its phishing pages is COMPLETE RESPONSIBILITY of t
   - `python FlaskPhisher.py`<br>
 ### Debian Based Distros
   - `sudo apt install git`<br>
+  - `sudo apt-get -y install python3`<br>
   - `sudo apt-get -y install python3-pip`<br>
-  -  `git clone https://github.com/Sithum-Nimlaka/FlaskPhisher.git`<br>
+  - `git clone https://github.com/Sithum-Nimlaka/FlaskPhisher.git`<br>
   - `chmod 777 FlaskPhisher`<br>
   - `cd FlaskPhisher`<br>
   - `pip3 install -r requirements.txt`<br>
   - `python3 FlaskPhisher.py`<br>
 
 ### RedHat Based Distros
+  - `sudo yum install git`<br>
+  - `sudo yum install python3`<br>
+  - `sudo yum install python3-pip`<br>
+  - `git clone https://github.com/Sithum-Nimlaka/FlaskPhisher.git`<br>
+  - `chmod 777 FlaskPhisher`<br>
+  - `cd FlaskPhisher`<br>
+  - `pip3 install -r requirements.txt`<br>
+  - `python3 FlaskPhisher.py`<br>
