@@ -6,10 +6,30 @@ FlaskPhisher is a tool to generate phishing pages that target social media websi
 <p align="center">EDUCATIONAL PURPOSES ONLY<p>
 The use of the FlaskPhisher & its phishing pages is COMPLETE RESPONSIBILITY of the END-USER. Developer assume NO liability and are NOT responsible for any misuse or damage caused by this program.
   
-# AVAILABLE TUNNELLING OPTIONS
+### AVAILABLE TUNNELLING OPTIONS
 - LOCALHOST
 - NGROK
 
-# SCREENSHOTS (Tested Platforms)
+### Tested Platforms
+- Windows 10
+- Kali Linux 2021.3
+- Ubuntu 20.4
+- PearOS Catalina
+- CentOS 7
+- CentOS 8
+
+### SCREENSHOTS (Tested Platforms)
 <p align="center">Windows 10<p>
-![Windows10](https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskPhisher-windows.jpg)
+<img src="https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskPhisher-windows.jpg"/>
+  
+### PREREQUISITES
+
+- Python 3.\*
+- sudo
+- pyngrok
+  
+# Installation
+
+### Windows 10
+### Debian Based
+### RedHat Based
