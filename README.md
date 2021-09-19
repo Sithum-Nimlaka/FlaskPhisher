@@ -59,3 +59,9 @@ FlaskPhisher is a tool to generate phishing pages that target social media websi
   - `cd FlaskPhisher`<br>
   - `pip3 install -r requirements.txt`<br>
   - `python3 FlaskPhisher.py`<br>
+
+# Features
+### Save Data into Database.
+- Flask Phisher is automatically saving phished credentials to the SQLite database.
+- To access saved data,<br>
+run `python3 savedCredentials.py`
