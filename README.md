@@ -1,5 +1,6 @@
 # FlaskPhisher  v1.0
 FlaskPhisher is a tool to generate phishing pages that target social media websites, making it much easier to phish targets of opportunity on any network. FlaskPhisher is developed using Python-Flask-Web-Framework.
+<br><br>[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)<br><br>
 ![Main Image](https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/FlaskPhisher-Base.jpg)
 
 # ⚠️DISCLAIMER⚠️
