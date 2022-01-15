@@ -3,7 +3,7 @@ FlaskPhisher is a tool to generate phishing pages that target social media websi
 <br><br><img src="https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskphisher-v1.0.svg" alt="FlaskPhisher v1.0">
 <img src="https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/flaskphisher-phishing-toolkit.svg" alt="FlaskPhisher Phishing Toolkit">
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)<br><br>
-![Main Image](https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/FlaskPhisher-Base.jpg)
+![Main Image](https://github.com/Sithum-Nimlaka/FlaskPhisher/blob/Main/img/FlaskPhisher-Base-v1.1.jpg)
 
 # ⚠️DISCLAIMER⚠️
 <p align="center">❗️EDUCATIONAL PURPOSES ONLY❗️<p>
