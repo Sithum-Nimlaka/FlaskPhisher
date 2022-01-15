@@ -15,7 +15,7 @@ FlaskPhisher is a tool to generate phishing pages that target social media websi
 
 ## 🖥Tested Platforms🖥
 - Windows 10
-- Kali Linux 2021.3
+- Kali Linux 2021.4
 - Ubuntu 20.4
 - PearOS Catalina
 - CentOS 7
