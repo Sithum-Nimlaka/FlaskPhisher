@@ -46,5 +46,8 @@ def templatePathChooser(number):
     elif number == '16':
         templatePath = '/gitlab/index.html'
         return templatePath
+    elif number == '17':
+        templatePath = '/instagram/index.html'
+        return templatePath
     else:
         pass

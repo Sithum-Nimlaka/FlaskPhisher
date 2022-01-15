@@ -9,7 +9,7 @@ templateList = """
  [5] StackOverflow   [14] Reddit
  [6] WordPress       [15] Yandex
  [7] Twitter         [16] GitLab
- [8] Netflix
+ [8] Netflix         [17] Instagram
  [9] Yahoo
 
 """
