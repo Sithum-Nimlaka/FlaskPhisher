@@ -74,4 +74,3 @@ run `python3 savedCredentials.py`
 # Discussion & Latest Updates
 - For latest updates, and discuss about bugs join our telegram channel and group via the following links.
 - <p>Channel: <a href="https://t.me/FlaskPhisherOfficial">https://t.me/FlaskPhisherOfficial</a></p>
-- <p>Group: <a href="https://t.me/joinchat/eIyBjRvY8qVkMTc9">https://t.me/joinchat/eIyBjRvY8qVkMTc9</a></p>
