@@ -56,5 +56,5 @@ try:
     print(green + "\n" + "[!] Thanks for using this tool..." + "\n" + reset)
 except Exception as err:
     print(red + "[-] Error Occurred --> " + blue + "{}".format(err) + reset)
-    print(red + "[-] Can't run program anymore...\n[-] Quiting..." + reset)
+    print(red + "[-] Can't run program anymore...\n[-] Quitting..." + reset)
     sys.exit()
