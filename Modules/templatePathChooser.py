@@ -19,6 +19,7 @@ def templatePathChooser(number):
         return templatePath
     elif number == '7':
         templatePath = '/twitter/index.html'
+        return templatePath
     elif number == '8':
         templatePath = '/netflix/index.html'
         return templatePath
